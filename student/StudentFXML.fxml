@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="StudentStylesheet" prefHeight="497.0" prefWidth="665.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="student.StudentController">
+   <children>
+      <AnchorPane layoutX="4.0" layoutY="4.0" prefHeight="490.0" prefWidth="659.0">
+         <children>
+            <TabPane layoutX="7.0" layoutY="28.0" prefHeight="458.0" prefWidth="651.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab text="PERSONAL DETAILS">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="171.0" prefWidth="371.0">
+                           <children>
+                              <TableView fx:id="studentDetails" layoutX="2.0" layoutY="1.0" prefHeight="426.0" prefWidth="645.0">
+                                <columns>
+                                  <TableColumn prefWidth="94.0" resizable="false" sortable="true" text="Id" />
+                                  <TableColumn prefWidth="96.0" resizable="false" sortable="true" text="First Name" />
+                                    <TableColumn prefWidth="95.0" resizable="false" sortable="true" text="Last Name" />
+                                    <TableColumn prefWidth="94.0" resizable="false" sortable="true" text="Email" />
+                                    <TableColumn prefWidth="123.0" resizable="false" sortable="true" text="D.O.B" />
+                                    <TableColumn prefWidth="136.0" resizable="false" sortable="true" text="Balance" />
+                                </columns>
+                              </TableView>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+                <Tab text="GRADES">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <TableView layoutX="5.0" layoutY="46.0" prefHeight="379.0" prefWidth="644.0">
+                                <columns>
+                                    <TableColumn fx:id="stid" prefWidth="59.00001525878906" resizable="false" sortable="false" />
+                                  <TableColumn fx:id="stmath" prefWidth="75.0" resizable="false" sortable="false" />
+                                    <TableColumn fx:id="steng" prefWidth="84.0" resizable="false" sortable="false" />
+                                    <TableColumn fx:id="stkisw" resizable="false" sortable="false" />
+                                    <TableColumn fx:id="stbio" prefWidth="74.0" resizable="false" sortable="false" />
+                                    <TableColumn fx:id="stchem" prefWidth="76.0" resizable="false" sortable="false" />
+                                    <TableColumn fx:id="stphyc" prefWidth="66.0" resizable="false" />
+                                    <TableColumn fx:id="stother" prefWidth="89.0" resizable="false" />
+                                </columns>
+                                 <effect>
+                                    <Blend />
+                                 </effect>
+                              </TableView>
+                              <Label layoutX="67.0" layoutY="29.0" prefHeight="17.0" prefWidth="88.0" text="Math">
+                                 <textFill>
+                                    <LinearGradient endX="1.0" endY="1.0">
+                                       <stops>
+                                          <Stop color="#39ee15" />
+                                          <Stop color="#200bda" offset="1.0" />
+                                       </stops>
+                                    </LinearGradient>
+                                 </textFill>
+                                 <font>
+                                    <Font name="Rockwell Extra Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="171.0" layoutY="29.0" prefHeight="17.0" prefWidth="60.0" text="ENG">
+                                 <textFill>
+                                    <LinearGradient endX="1.0" endY="1.0">
+                                       <stops>
+                                          <Stop color="#39ee15" />
+                                          <Stop color="#3b0edd" offset="1.0" />
+                                       </stops>
+                                    </LinearGradient>
+                                 </textFill>
+                                 <font>
+                                    <Font name="Rockwell Extra Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="246.0" layoutY="29.0" prefHeight="17.0" prefWidth="61.0" text="Kisw">
+                                 <textFill>
+                                    <LinearGradient endX="1.0" endY="1.0">
+                                       <stops>
+                                          <Stop color="#39ee15" />
+                                          <Stop color="#4710e1" offset="1.0" />
+                                       </stops>
+                                    </LinearGradient>
+                                 </textFill>
+                                 <font>
+                                    <Font name="Rockwell Extra Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="319.0" layoutY="29.0" prefHeight="17.0" prefWidth="64.0" text="Bio">
+                                 <textFill>
+                                    <LinearGradient endX="1.0" endY="1.0">
+                                       <stops>
+                                          <Stop color="#39ee15" />
+                                          <Stop color="#270ac9" offset="1.0" />
+                                       </stops>
+                                    </LinearGradient>
+                                 </textFill>
+                                 <font>
+                                    <Font name="Rockwell Extra Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="462.0" layoutY="29.0" prefHeight="17.0" prefWidth="67.0" text="Phyc">
+                                 <font>
+                                    <Font name="Rockwell Extra Bold" size="12.0" />
+                                 </font>
+                                 <textFill>
+                                    <LinearGradient endX="1.0" endY="1.0">
+                                       <stops>
+                                          <Stop color="#39ee15" />
+                                          <Stop color="BLACK" offset="1.0" />
+                                       </stops>
+                                    </LinearGradient>
+                                 </textFill>
+                              </Label>
+                              <Label layoutX="543.0" layoutY="29.0" prefHeight="17.0" prefWidth="62.0" text="Other">
+                                 <font>
+                                    <Font name="Rockwell Extra Bold" size="12.0" />
+                                 </font>
+                                 <textFill>
+                                    <LinearGradient endX="1.0" endY="1.0">
+                                       <stops>
+                                          <Stop color="#39ee15" />
+                                          <Stop color="BLACK" offset="1.0" />
+                                       </stops>
+                                    </LinearGradient>
+                                 </textFill>
+                              </Label>
+                              <Label layoutX="398.0" layoutY="29.0" prefHeight="17.0" prefWidth="55.0" text="Chem">
+                                 <textFill>
+                                    <LinearGradient endX="1.0" endY="1.0">
+                                       <stops>
+                                          <Stop color="#39ee15" />
+                                          <Stop color="#270ac9" offset="1.0" />
+                                       </stops>
+                                    </LinearGradient>
+                                 </textFill>
+                                 <font>
+                                    <Font name="Rockwell Extra Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="15.0" layoutY="29.0" prefHeight="17.0" prefWidth="38.0" text="Id">
+                                 <textFill>
+                                    <LinearGradient endX="1.0" endY="1.0">
+                                       <stops>
+                                          <Stop color="#39ee15" />
+                                          <Stop color="#200bda" offset="1.0" />
+                                       </stops>
+                                    </LinearGradient>
+                                 </textFill>
+                                 <font>
+                                    <Font name="Rockwell Extra Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Button layoutX="8.0" layoutY="2.0" mnemonicParsing="false" onAction="#loadGrade" prefHeight="25.0" prefWidth="94.0" text="Load Grades." />
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+              </tabs>
+            </TabPane>
+            <Label layoutX="202.0" layoutY="-2.0" prefHeight="32.0" prefWidth="217.0" text="STUDENT SECTION" textFill="#1a000f">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
