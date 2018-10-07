@@ -1,0 +1,137 @@
+
+
+Version:	3.12
+CmdLine:	C:\Users\15\Documents\SchoolSystem\out\artifacts\SchoolSystem_jar\SchoolSystem.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Users\15\Documents\SchoolSystem\out\artifacts\SchoolSystem_jar\.
+Java min ver:	1.001.000
+Java max ver:	1.001.010
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_101
+Ignore:		1.008.000_101
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_71
+Ignore:		1.008.000_071
+32-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_101
+Ignore:		1.008.000_101
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_71
+Ignore:		1.008.000_071
+32-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+32-bit search:	SOFTWARE\JavaSoft\JRE...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+32-bit search:	SOFTWARE\JavaSoft\JDK...
+64-bit search:	SOFTWARE\IBM\Java Runtime Environment...
+32-bit search:	SOFTWARE\IBM\Java Runtime Environment...
+64-bit search:	SOFTWARE\IBM\Java Development Kit...
+32-bit search:	SOFTWARE\IBM\Java Development Kit...
+64-bit search:	SOFTWARE\IBM\Java2 Runtime Environment...
+32-bit search:	SOFTWARE\IBM\Java2 Runtime Environment...
+64-bit search:	SOFTWARE\IBM\Java Development Kit...
+32-bit search:	SOFTWARE\IBM\Java Development Kit...
+Error msg:	This application requires a Java Runtime Environment 1.1.0 - 1.1.10
+Open URL:	http://java.com/download
+
+
+Version:	3.12
+CmdLine:	C:\Users\15\Documents\SchoolSystem\out\artifacts\SchoolSystem_jar\SchoolSystem.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Users\15\Documents\SchoolSystem\out\artifacts\SchoolSystem_jar\.
+Java min ver:	1.001.000
+Java max ver:	1.008.000_071
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre1.8.0_101\bin\javaw.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_101
+Ignore:		1.008.000_101
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_71
+Check launcher:	C:\Program Files\Java\jre1.8.0_71\bin\javaw.exe (OK)
+Match:		1.008.000_071
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_101
+Ignore:		1.008.000_101
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_71
+Ignore:		1.008.000_071
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Runtime used:	1.008.000_071 (64-bit)
+Main class:	LogInApp.LogInApp
+Add classpath:	LogInApp.LogInApp
+Launcher:	C:\Program Files\Java\jre1.8.0_71\bin\javaw.exe
+Launcher args:	-classpath "C:\Users\15\Documents\SchoolSystem\out\artifacts\SchoolSystem_jar\SchoolSystem.exe;LogInApp.LogInApp" LogInApp.LogInApp
+Args length:	131/32768 chars
+Exit code:	0
+
+
+Version:	3.12
+CmdLine:	C:\Users\15\Documents\SchoolSystem\out\artifacts\SchoolSystem_jar\SchoolSystem.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Users\15\Documents\SchoolSystem\out\artifacts\SchoolSystem_jar\.
+Java min ver:	1.001.000
+Java max ver:	1.008.000_071
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre1.8.0_101\bin\javaw.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_101
+Ignore:		1.008.000_101
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_71
+Check launcher:	C:\Program Files\Java\jre1.8.0_71\bin\javaw.exe (OK)
+Match:		1.008.000_071
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_101
+Ignore:		1.008.000_101
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_71
+Ignore:		1.008.000_071
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Runtime used:	1.008.000_071 (64-bit)
+Main class:	LogInApp.LogInApp
+Add classpath:	LogInApp.LogInApp
+Launcher:	C:\Program Files\Java\jre1.8.0_71\bin\javaw.exe
+Launcher args:	-classpath "C:\Users\15\Documents\SchoolSystem\out\artifacts\SchoolSystem_jar\SchoolSystem.exe;LogInApp.LogInApp" LogInApp.LogInApp
+Args length:	131/32768 chars
+Exit code:	0
+
+
+Version:	3.12
+CmdLine:	C:\Users\15\Documents\SchoolSystem\out\artifacts\SchoolSystem_jar\SchoolSystem.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Users\15\Documents\SchoolSystem\out\artifacts\SchoolSystem_jar\.
+Java min ver:	1.001.000
+Java max ver:	1.008.000_071
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre1.8.0_101\bin\javaw.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_101
+Ignore:		1.008.000_101
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_71
+Check launcher:	C:\Program Files\Java\jre1.8.0_71\bin\javaw.exe (OK)
+Match:		1.008.000_071
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_101
+Ignore:		1.008.000_101
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_71
+Ignore:		1.008.000_071
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Runtime used:	1.008.000_071 (64-bit)
+Main class:	LogInApp.LogInApp
+Add classpath:	LogInApp.LogInApp
+Launcher:	C:\Program Files\Java\jre1.8.0_71\bin\javaw.exe
+Launcher args:	-classpath "C:\Users\15\Documents\SchoolSystem\out\artifacts\SchoolSystem_jar\SchoolSystem.exe;LogInApp.LogInApp" LogInApp.LogInApp
+Args length:	131/32768 chars
+Exit code:	0
